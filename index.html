@@ -1,0 +1,254 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+   
+ </head>
+ <body >
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/xtnew.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text" >
+                <h1>Hi,I'm Kaviya </h1>
+                <br>
+                <h5>Knack of building applications and solving real world problems
+                </h5>
+                
+                <img src="images/kavss.jpg"  class="logo">
+                
+            </div>
+            
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portfolionew.png"  class="logo-pro">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style="font-family: 'Courier New'">About me</h1>
+
+                    <p style="font-family: 'Cursive', cursive;">Seeking an opportunity to work in a challenging environment, where I can contribute to the growth of the organization and enhance my knowledge continuously.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Achievements</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'Aoe')">Area of Interests</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span>
+                            <li><span>Java</span>
+                            <li><span>Python</span>
+                            <li><span>HTML,CSS,Javascript</span>
+                            <li><span>ReactJs,NodeJs</span>
+                            <li><span>MongoDB</span>
+                            <li><span>Figma</span>
+                             <li><span>Power Bi</span>
+                            <li><span>Wordpress</span>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Winner of SIH'23 for AI based  tool for preliminary diagnosis of dermatological manifestation </span>
+                            <li><span>Participated in Dark Pattern Buster Hackthon-2024</span>
+                            <li><span>Participated ideathon in the Topic of "Deep Learning For Terrain recognition" </span>
+                           <li><span>Presented a paper at Coimbatore Institute of Technology in the Topic of "Crop Recommender using Machine learning" </span>
+
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span></span><br>
+                            <li><span>Currently Pursuing degree at Kongu Engineering college in Computer science Engineering with CGPA of 8.32(till 5th sem)</span>
+                            <li><span>HSC with the Percentage of 95.5%</span>
+                            <li><span>SSLC with the Percentage of 95.2%</span>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Aoe">
+                        <ul>
+                            <li><span>Data Science</span><br>
+                            <li><span>Machine Learning</span>
+                            <li><span>Data Structure</span>
+                           <li><span>DBMS</span>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- ----------services -->
+    
+    <div id="services">
+        <div class="container"> 
+            <h1 class="sub-title" style="font-family: 'Courier New'">Projects</h1>
+            <div class="services-list">
+                
+                <div>
+                   <h1>E-commerce website</h1> 
+                    <br>
+                    <p>An e-commerce website is an online platform that facilitates the buying and selling of goods and services over the internet.Developed using HTML,CSS,JS and Firebase</p>
+                    <br>
+                  <a href="https://github.com/KAVIYAP30/e-commerce" ><button class="button">View Code</button></a>
+                   
+                </div>
+            
+                <div>
+                    <h1>Book Store Managment</h1> 
+                    <br>
+                    <p>Book store store managment is a web application build using MERN stack used to store the book title,author,published year where you can perform all the CRUD operation with seamless experience</p>
+                    <br>
+                  <a href="https://github.com/KAVIYAP30/BookStore" ><button class="button">View Code</button></a>
+                </div>
+                <div>
+                    <h1>Airline Reservation System</h1> 
+                    <br>
+                    <p>Airline reservation is of securing  ticket on a flight for a specific date and time.Developed using JavaFx and Mysql</p>
+                    <br>
+                    <a href="https://github.com/KAVIYAP30/Airline-reservation"> <button class="button">View Code</button></a>
+                </div>
+                <div>
+                    <h1>AI based tool for preliminary diagnosis for Dermatological manifestation</h1> 
+                    <br>
+                    <p>The solution focuses on deep learning(CNN) based skin dieases and cancer recognition for professional usage in hospitals </p>
+                    <br>
+                   <button class="button">View Code</button>
+                   
+                </div>
+                <div>
+                    <h1>Sentiment Analysis on amazon foodreviews</h1> 
+                    <br>
+                    <p>Sentiment Analysis on amazon foodreviews using natural language processing techniques</p>
+                    <br>
+                 <a href="https://github.com/KAVIYAP30/Amazonfood_sentiment-Analysis"> <button class="button">View Code</button></a> 
+                   
+                </div>
+                <div>
+                    <h1>Fake new Detection using Machine Learning algorithms</h1> 
+                    <br>
+                    <p>Detecting fake news using machine learning involves building models that can analyze textual content and identify patterns indicative of misinformation,using different type of machine learning algorithms</p>
+                    <br>
+                   <a href="https://github.com/KAVIYAP30/Fakenews_detection"><button class="button">View Code</button></a> 
+                </div>
+                <div>
+                    <h1>TimeStride Tracker</h1> 
+                    
+                    <p>Used to track the time taken to complete the task by the workers and store it in the database with seamless experience using HTML,CSS,JS,NODEJS,MONGODB</p>
+                    
+                    <br>
+                   <a href="https://github.com/KAVIYAP30/TimeLogger_Node_Mongo"><button class="button">View Code</button></a> 
+                </div>
+                <div>
+                    <h2>SpendWise(Expense Tracker)</h2> 
+                    
+                    <p>Expense Tracker is used to track your budget using ReactJs which provides excellecent seamless design</p>
+                    
+                    <br>
+                   <a href="https://github.com/KAVIYAP30/Expense_Tracker_React_"><button class="button">View Code</button></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" style="font-family: 'Courier New'">Get in Touch</h1>
+                    <p>kaviyapalani3006@gmail.com</p>
+                    <p>9500745787</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kaviya-p-b5817b225/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/KAVIYAP30?tab=repositories"><i class="bi bi-github"></i></a>
+                    </div>
+                    <br><br>
+
+                    <a href="/images/KAVIYAP_21CSR089.pdf" download class="btn btn2">Download Cv</a>
+
+                </div>
+                    <div class="contact-right">
+                        <form name="contact form">
+                            <input type="text" name="Name" placeholder="Your Name" requied>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn">Send</button>
+                        </form>
+                        <br>
+                        <br>
+
+                        <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(event, tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    
+<script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbwEFjpBWPjSNLfjGi4IBgNwqT-fOl-4IgHhgB413IamyQGrqXsXbcNJSEmNqJhv5eHC7w/exec';
+const form = document.forms['contact form'];
+const msg = document.getElementById('msg');
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then(response => {
+      if (response.ok) {
+        msg.innerHTML = 'Message sent successfully!';
+        setTimeout(function () {
+          msg.innerHTML = '';
+        }, 5000);
+        form.reset();
+      } else {
+        msg.innerHTML = 'Error sending message. Please try again.';
+      }
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      msg.innerHTML = 'An error occurred. Please try again later.';
+    });
+});
+
+  </script>
+    
+    
+ </body>
+ </html>
